@@ -30,6 +30,7 @@ public class ProductSortByName
 	public void openApplicationURL()
 	{
 		driver.get("http://live.guru99.com/");
+		System.out.println("url entered");
 	}
 	@BeforeClass
 	public void maximizeBrowser()
